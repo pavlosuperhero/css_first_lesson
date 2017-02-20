@@ -1,0 +1,66 @@
+  @font-face {
+    font-family: "GothamProBold";
+    src: url("../css/fonts/GothamProBold/GothamProBold.eot");
+    src: url("../css/fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../css/fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../css/fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-family: "GothamProMedium";
+    src: url("../css/fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("../css/fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("../css/fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../css/fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+  *{
+	margin: 0;
+	padding: 0;
+    }
+    a{
+	text-decoration: none;
+	
+    }
+    ul{
+	list-style: none;
+    }
+    body{
+	max-width:1600px;
+    }
+ header {
+	background:url(../img/rein_boots.png) no-repeat 50% 0;
+	position: relative;
+	width: 1600px;
+	height: 912px;
+    }
+    h1{
+        font-family: 'Montserrat', bold;
+    }
+    .text_in_body{
+        font-family: "GothamProMedium";
+    }
+    header img
+    {
+	position: relative;
+	left: 204px;
+	top: 72px;
+    }
+    .main_menu li
+    {
+    font-family: "GothamProBold";
+	position: relative;
+	display: inline-block;
+	top: 3px;
+	left: 910px;
+	color: #FFFFFF;
+	padding: 22px 5px 29px 2px;
+    }
+    .main_menu button{
+    height: 52px;
+    width: 129px;
+    background:url(../img/arrow_mini.png) center no-repeat;
+    border-radius: 10px;
+    border-color: #a100ff
+    }
